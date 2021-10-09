@@ -3,14 +3,15 @@ export const state = () => ({
     {
       id: 1,
       title: 'Linkedin Clone',
-      description: 'Mock of a view page like LinkedIn',
+      description: 'Implementação da tela de login e home page do LinkedIn, com utilização de JavaScript, React, Redux, Firebase',
       price: 50,
       ratings: 3,
       reviews: 5,
       isAddedToCart: false,
       isAddedBtn: false,
       isFavourite: false,
-      quantity: 1
+      quantity: 1,
+      url: "https://entredevs.com.br/wp-content/uploads/2021/02/react.png"
     },
     {
       id: 2,
@@ -60,54 +61,6 @@ export const state = () => ({
       isFavourite: false,
       quantity: 1
     },
-    {
-      id: 6,
-      title: 'Product 6',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      price: 110,
-      ratings: 5,
-      reviews: 1,
-      isAddedToCart: false,
-      isAddedBtn: false,
-      isFavourite: false,
-      quantity: 1
-    },
-    {
-      id: 7,
-      title: 'Product 7',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      price: 50,
-      ratings: 5,
-      reviews: 7,
-      isAddedToCart: false,
-      isAddedBtn: false,
-      isFavourite: false,
-      quantity: 1
-    },
-    {
-      id: 8,
-      title: 'Product 8',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      price: 35,
-      ratings: 3,
-      reviews: 0,
-      isAddedToCart: false,
-      isAddedBtn: false,
-      isFavourite: false,
-      quantity: 1
-    },
-    {
-      id: 9,
-      title: 'Product 9',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      price: 110,
-      ratings: 4,
-      reviews: 2,
-      isAddedToCart: false,
-      isAddedBtn: false,
-      isFavourite: false,
-      quantity: 1
-    }
   ],
   userInfo: {
     isLoggedIn: false,

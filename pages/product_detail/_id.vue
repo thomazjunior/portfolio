@@ -2,7 +2,7 @@
   <div class="section">
     <div class="card is-clearfix columns">
         <figure class="card-image is-480x480 column is-one-thirds">
-          <img src="https://bulma.io/images/placeholders/480x480.png">
+          <img :src="product.url">
         </figure>
         <div class="card-content column is-two-thirds">
           <div class="card-content__title">
@@ -25,7 +25,7 @@
             Ut enim ad minim veniam, quis nostrud
             </p>
           </div>
-          <div class="card-content__ratings">
+          <div class="card-content__ratings"> 
             <i v-if="product.ratings === 1" class="fa fa-star"></i>
             <i v-if="product.ratings === 2" class="fa fa-star"></i>
             <i v-if="product.ratings === 2" class="fa fa-star"></i>
