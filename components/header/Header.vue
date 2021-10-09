@@ -60,10 +60,8 @@
 <script>
   import VmMenu from '../menu/Menu';
   import VmSearch from '../search/Search';
-
   export default {
     name: 'VmHeader',
-
     data () {
       return {
         linkedinTooltip: 'Follow us on Linkedin',
@@ -74,18 +72,15 @@
         isMenuOpen: false
       }
     },
-
     components: {
       VmSearch,
       VmMenu
     },
-
     computed: {
       numProductsAdded () {
         return this.$store.getters.productsAdded.length;
       }
     },
-
     methods: {
       showCheckoutModal () {
         this.$store.commit('showCheckoutModal', true);
@@ -95,12 +90,19 @@
 </script>
 
 <style lang="scss" scoped>
+  .navbar{
+    height: 150px;
+  }
   .title {
-    background: url('../../static/vuemmerce-logo.png') no-repeat;
+    background: url('../../static/logoNome.png') no-repeat;
     background-position: 50% 50%;
-    background-size: 165px;
-    width: 175px;
-    height: 35px;
+    background-size: 300px;
+    width: 300px;
+    height: 150px;
+  }
+
+  .is-hidden-mobile{
+    align-items: center;
   }
   .shopping-cart {
     cursor: pointer;

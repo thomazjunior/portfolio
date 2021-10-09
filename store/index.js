@@ -2,8 +2,8 @@ export const state = () => ({
   products: [
     {
       id: 1,
-      title: 'Product 1',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      title: 'Linkedin Clone',
+      description: 'Mock of a view page like LinkedIn',
       price: 50,
       ratings: 3,
       reviews: 5,
@@ -14,8 +14,8 @@ export const state = () => ({
     },
     {
       id: 2,
-      title: 'Product 2',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      title: 'Whatsapp Clone',
+      description: 'Mock of a view page like Whatsapp',
       price: 35,
       ratings: 5,
       reviews: 10,
